@@ -1,4 +1,4 @@
-#!/bin/env ruby
+#!/usr/local/rvm/rubies/ruby-1.9.3-p551/bin/ruby
 require 'winrm'
 auth = ENV['RD_CONFIG_AUTHTYPE']
 user = ENV['RD_CONFIG_USER'].dup # for some reason these strings is frozen, so we duplicate it
