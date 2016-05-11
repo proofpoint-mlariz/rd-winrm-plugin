@@ -9,7 +9,7 @@ providers:
     description: Executing Scripts or commands on remote windows computer
     service: NodeExecutor
     plugin-type: script
-    script-interpreter: ruby
+    script-interpreter: /usr/local/rvm/rubies/ruby-1.9.3-p551/bin/ruby
     script-file: winrmexe.rb
 #    script-args: ${config.realm} ${config.username} ${config.password} ${node.hostname} ${exec.command}
     interpreter-args-quoted: true
