@@ -89,7 +89,7 @@ providers:
     title: WinRM File Copier
     service: FileCopier
     plugin-type: script
-    script-interpreter: ruby
+    script-interpreter: /usr/local/rvm/wrappers/default/ruby
     script-file: winrmcp.rb
     script-args: ${node.hostname} ${file-copy.file} ${file-copy.destination}
     config:
